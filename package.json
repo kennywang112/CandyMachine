@@ -1,0 +1,56 @@
+{
+  "name": "mint-ui-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cardinal/common": "^8.0.0",
+    "@metaplex-foundation/js": "^0.17.12",
+    "@metaplex-foundation/js-plugin-aws": "^0.18.3",
+    "@metaplex-foundation/js-plugin-nft-storage": "^0.19.4",
+    "@metaplex-foundation/mpl-candy-guard": "^0.4.2",
+    "@metaplex-foundation/mpl-candy-machine": "6.0.0-alpha.11",
+    "@metaplex-foundation/mpl-candy-machine-core": "^0.2.2",
+    "@metaplex-foundation/mpl-essentials": "^0.5.3",
+    "@metaplex-foundation/mpl-token-metadata": "^3.0.0-alpha.18",
+    "@metaplex-foundation/umi": "0.7.5",
+    "@metaplex-foundation/umi-bundle-defaults": "0.7.5",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "0.7.5",
+    "@metaplex-foundation/umi-uploader-nft-storage": "^0.6.0",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/wallet-adapter-ant-design": "^0.11.28",
+    "@solana/wallet-adapter-base": "^0.9.22",
+    "@solana/wallet-adapter-react": "^0.15.32",
+    "@solana/wallet-adapter-react-ui": "^0.9.17",
+    "@solana/wallet-adapter-wallets": "^0.19.16",
+    "@solana/web3.js": "^1.75.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "next": "12.3.1",
+    "npm": "^9.6.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "solana-encryption": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.31",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.0"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+  "description": "This package is derived from [Metaplex's Candy Machine Mint UI Example](https://github.com/metaplex-foundation/js-examples/tree/main/mint-ui-example)",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}
